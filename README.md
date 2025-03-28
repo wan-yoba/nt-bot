@@ -1,7 +1,12 @@
 # NT-BOT
 
+## 注意
+* 写于早期时候一个DEMO，如需尝试，请拉取 `Lagrange.Core` 最新项目
+* 需要参阅其他，替换原有生成二维码实现
+  * 引入 `SixLabors.ImageSharp`，`ZXing.Net`，`ZXing.Net.Bindings.ImageSharp`
+  * 解释一下为什么会变更它的方法，因为扫不起。
+
 ## 项目依赖
-* `git` 拉取 `http://47.109.22.188:3000/git/NT-BOT/NT-CORE.git` 
 * `BotService` 依赖于 `Lagrange.Core` 项目
 
 ## 项目配置
